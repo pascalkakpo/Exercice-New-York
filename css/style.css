@@ -1,0 +1,111 @@
+/* import des polices */
+@font-face {
+  font-family: "Courgette";
+  src: url("Courgette-Regular.woff2") format("woff2"),
+    url("Courgette-Regular.woff") format("woff");
+  font-weight: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 18px;
+  color: #444;
+  margin-left: 50px;
+  margin-right: 50px;
+
+  text-wrap: wrap;
+  font-family: 'Source Sans';
+
+}
+.bo {
+  margin-top: 5px;
+  text-align: center;
+  
+}
+.citation {
+  position: relative;
+  text-align: center;
+  width: 60%;
+  height: 10vh;
+  background-color: #d7e1ef;
+  left: 20%;
+  padding: 0px 12px; 
+  color: #11397d;
+}
+.citation p,
+b {
+  font-size: 20px;
+  font-family: Courgette;
+ 
+}
+
+ol {
+  position: relative;
+  margin-left: 150px;
+  color: #11397d;
+  font-family: Courgette;
+}
+ul {
+  position: relative;
+  width: 80%;
+  margin: 30px;
+}
+h2,
+h3 {
+  text-align: center;
+  margin: 20px;
+  font-family: Courgette;
+}
+.div {
+  position: relative;
+  height: 10vh;
+  text-align: center;
+  margin-top: 20px;
+}
+.div p {
+  position: relative;
+  text-decoration: underline;
+  font-size: 15px;
+  top: 45px;
+}
+m {
+  color: #11397d;
+}
+h1 {
+  font-size: 40px;
+  font-family: Courgette;
+}
+h2 {
+  font-size: 35px;
+}
+h3 {
+  font-size: 25px;
+}
+img{
+  margin: 5px;
+}
+.p{
+  float: right;
+}
+.m{
+  float:left ;
+  
+}
+.ima{
+  position: relative;
+top: 15px;
+height: 14vh;
+margin-left: 30%;}
+.img2{
+  margin-left: 50px;
+}
+@media screen and (min-width:1125px){
+  .ima{
+    background-color: red;
+  }
+
+}
